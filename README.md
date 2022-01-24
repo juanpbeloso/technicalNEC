@@ -29,9 +29,11 @@ Se puede comprobar que  la API en C# a la espera de la conexión del Frontend.
 De esta forma se puede testear la funcionalidad del **Ejercicio 1** montando un servidor de desarrollo local, en este caso, en el puerto 4200:
 
 ![image](https://user-images.githubusercontent.com/50303942/150781997-5c1f4b8c-f044-4bcc-bea9-c1213707a8f9.png)
+> En esta instancia, el Backend aún no está corriendo y es por eso que se observa un error de conexión al no obtener datos.
 
 
 ![image](https://user-images.githubusercontent.com/50303942/150781922-808eda7b-a4d5-41e8-b703-d7034d17c12e.png)
+> Ejemplo de ingreso de datos en la interfaz de usuario.
 
 En el apartado de conversión se puede observar que los valores de todas las cryptomonedas son iguales. Esto se debe a que las pruebas son realizadas con datos obtenidos del la URL de TEST: *sandbox-api.coinmarketcap.com*. 
 
