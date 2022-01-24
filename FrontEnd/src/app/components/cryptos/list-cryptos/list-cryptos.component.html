@@ -1,0 +1,26 @@
+<div class="p-2">
+    <div class="col-md-6" *ngIf="!cryptoService.isPending && !cryptoService.error" >
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Price in USD</th>
+            </tr>
+          </thead>
+          <tr *ngFor="let crypto of cryptoService.list">
+            <td>{{ crypto.name }}</td>
+            <td>{{ crypto.price }}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6" *ngIf="cryptoService.error">
+         
+              <div class="alert alert-danger d-flex align-items-center" role="alert">
+                  <div>
+                  <i class="fas fa-exclamation-triangle"></i>
+                    Cannot obtain data from backend. Please check connection.
+                  </div>
+                </div>
+      
+      </div>
+</div>
