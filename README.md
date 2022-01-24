@@ -33,4 +33,14 @@ De esta forma se puede testear la funcionalidad del **Ejercicio 1** montando un 
 
 ![image](https://user-images.githubusercontent.com/50303942/150781922-808eda7b-a4d5-41e8-b703-d7034d17c12e.png)
 
+En el apartado de conversión se puede observar que los valores de todas las cryptomonedas son iguales. Esto se debe a que las pruebas son realizadas con datos obtenidos del la URL de TEST: *sandbox-api.coinmarketcap.com*. 
+
+Esta request en particular permite un máximo de 1 conversión con la APIKEY de desarrollador y la URL correspondiente (no sandbox), y es por eso que se continuó con la resolución del ejercicio utilizando la APIKEY y URL de test. 
+
+Se puede observar el JSON en la parte de quotes, habiendo pasado como parámetro el *symbol* BTC, con cantidad 1 y el parámetro *convert* = "ETH,BNB,USDT,ADA"
+
+"ADA": {"price": 0.6063166094393142},
+"BNB": {"price": 0.6063166094393142},
+"ETH": {"price": 0.6063166094393142},
+"USDT": {"price": 0.6063166094393142}
 
