@@ -3,7 +3,7 @@ Technical Challenge - NEC
 
 Ejercicio práctico 1 - El Repositorio contiene dos carpetas, Frontend y Backend. En la carpeta de Frontend se encuentra el proyecto de Angular.
 
-Prerrequisitos -> Tener instalado Node.js, npm, .NET Core 3.1, Angular CLI
+Pre-requisitos -> Tener instalado Node.js, npm, .NET Core 3.1, Angular CLI
 
 Para ejecutar:
 1. Clonar proyecto
