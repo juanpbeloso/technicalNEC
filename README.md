@@ -44,3 +44,5 @@ Se puede observar el JSON en la parte de quotes, habiendo pasado como parámetro
 "ETH": {"price": 0.6063166094393142},
 "USDT": {"price": 0.6063166094393142}
 
+![image](https://user-images.githubusercontent.com/50303942/150793156-7a99128b-4dcc-4af4-a876-18b409a8ec65.png)
+
