@@ -9,7 +9,7 @@ Para ejecutar:
 1. Clonar proyecto
 2. https://github.com/juanpbeloso/technicalNEC.git
 3. Acceder a la ruta ../technicalNec/Backend/Backend
-En esta carpeta se puede localizar el archivo *appsetings.json* donde se podrá configurar la API Key
+En esta carpeta se puede localizar el archivo *appsetings.json* donde se podrá **configurar la API Key**
 
 Nota: La API CoinMarketCap ofrece una test API Key (APIKEY_TEST en *appsetings.json*) para realizar pruebas en la URL *sandbox-api.coinmarketcap.com*
 
